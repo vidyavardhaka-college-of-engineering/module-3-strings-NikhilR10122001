@@ -11,8 +11,11 @@
 #include <stdio.h>
 int main() 
 {
-                      //Declare the string
-printf("Enter a String: ");
+  char str[20];
+  printf("enter a string:");
+  scanf("%s",str);                  //Declare the string
+printf("the entered string is %s ",str);
+
                       //read the string from user
                       //Print the string
 return 0;
